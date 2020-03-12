@@ -1,0 +1,29 @@
+enable
+configure terminal
+hostname SW-01
+enable secret PEDRO*enable
+ip domain-name 1rede.local 
+crypto key generate rsa general-key modulus 1024
+line vty 0 15
+transport input ssh
+password PEDRO*vty
+login
+exit
+line console 0
+password PEDRO*console
+login
+exit
+service password-encryption
+interface vlan 1
+ip address 192.168.0.254 255.255.255.0
+no shutdown
+exit
+interface fastethernet 0/1
+description CONECTADA AO PC-01
+exit
+interface gigabitEthernet 0/1
+description CONECTADA AO RT-01
+exit
+ip default-gateway 192.168.0.1
+end
+wr

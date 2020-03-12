@@ -1,0 +1,34 @@
+1-Configuração no primeiro e no segundo switch:
+	-Configurar o nome do equipamento;
+	-Senha da Enable;
+	-Nome de Dominio;
+	-Adicionar a chave do SSH;
+	-Entrar na line VTY e ativar o SSH;
+	-Colocar a senha e ativa-la;
+	-Sair da VTY e entrar na Console;
+	-Configurar a senha da console e ativa-la;
+	-Encriptar todas as senhas em texto simples;
+	-Entrar na Interface VLAN 1;
+	-Adicionar o ip na interface;
+	-Acionar a interface;
+	-Entrar nas interfaces utilizadas e identifica-las;
+	-Adicionar o gateway no switch;
+	-Salvar as configurações.
+
+2-Configuração no Roteador:
+	-Configurar o nome do equipamento;
+	-Senha da Enable;
+	-Nome de Dominio;
+	-Adicionar a chave do SSH;
+	-Entrar na line VTY e ativar o SSH;
+	-Colocar a senha e ativa-la;
+	-Sair da VTY e entrar na Console;
+	-Configurar a senha da console e ativa-la;
+	-Encriptar todas as senhas em texto simples;
+	-Entrar na interface g0/0;
+	-Colocar o ip na interface e ativa-la;
+	-Descrever a interface;
+	-Sair e entrar na interface g0/1;
+	-Colocar o ip na interface e ativa-la;
+	-Descrever a interface;
+	-Salvar as configurações.
